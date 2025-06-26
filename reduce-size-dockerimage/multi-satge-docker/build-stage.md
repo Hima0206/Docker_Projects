@@ -15,6 +15,9 @@ django-reduce-buildtime   latest    c5a6e4606ed2   5 minutes ago    1.11GB
 simpledjango              latest    b3da05667e40   8 minutes ago    1.11GB
 
 
+![Untitled (2)](https://github.com/user-attachments/assets/4477051a-dddd-4c5b-860b-8fb838d50dc4)
+
+
 Exclude files from build
 Docker allows us to create a .dockerignore file to ensure that certain files are not included in the image by mistake, such as the local development database, environment variable files, or the .venv directory when running COPY . .
 
@@ -22,3 +25,5 @@ Here’s an example of a simple .dockerignore file to include in the root of you
 
 # .dockerignore
 .venv
+
+
