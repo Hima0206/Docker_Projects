@@ -24,3 +24,6 @@ django-reduce-imagesize   latest    7b4c584eb2c9   10 seconds ago   132MB
 django-reduce-buildtime   latest    c5a6e4606ed2   3 minutes ago    1.11GB
 simpledjango              latest    b3da05667e40   5 minutes ago    1.11GB
 
+
+![Untitled (1)](https://github.com/user-attachments/assets/bec59dc5-6e59-4cfd-a77b-1f3b5bdd3fde)
+
