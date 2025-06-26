@@ -13,3 +13,5 @@ Optimised:13.8 seconds on average.
 docker images.
 django-reduce-buildtime   latest    c5a6e4606ed2   9 seconds ago   1.11GB.
 simpledjango              latest    b3da05667e40   2 minutes ago   1.11GB.
+
+![Untitled](https://github.com/user-attachments/assets/a5bc45f3-e247-4ee3-83f6-e21ff7ab5f11)
