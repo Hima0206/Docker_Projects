@@ -10,6 +10,6 @@ If we look at the rebuild time (the time required to rebuild the image after mak
 Default: 38  seconds on average
 Optimised:13.8 seconds on average 
 
-docker images
+ docker images
 django-reduce-buildtime   latest    c5a6e4606ed2   9 seconds ago   1.11GB
 simpledjango              latest    b3da05667e40   2 minutes ago   1.11GB
