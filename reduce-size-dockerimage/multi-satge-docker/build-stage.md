@@ -7,6 +7,14 @@ Docker build stages, also known as multi-stage builds, separate the build proces
 4. Used COPY --from=builder /root/.local /root/.local: This copies /root/.local from the builder stage to the runtime stage, ensuring that only the necessary files are included in the final image.
 5.Added ENV PATH="/root/.local/bin:$PATH": This ensures that tools copied from the builder stage are available in the runtime stage.
 
+
+REPOSITORY                TAG       IMAGE ID       CREATED          SIZE
+django-multistage-build   latest    b190dfd8667b   13 seconds ago   83.3MB
+django-reduce-imagesize   latest    7b4c584eb2c9   2 minutes ago    132MB
+django-reduce-buildtime   latest    c5a6e4606ed2   5 minutes ago    1.11GB
+simpledjango              latest    b3da05667e40   8 minutes ago    1.11GB
+
+
 Exclude files from build
 Docker allows us to create a .dockerignore file to ensure that certain files are not included in the image by mistake, such as the local development database, environment variable files, or the .venv directory when running COPY . .
 

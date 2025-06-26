@@ -7,5 +7,9 @@ We should do the same for OS dependencies. Let’s move the RUN apt-get command 
 
 If we look at the rebuild time (the time required to rebuild the image after making a change in the application code)
 
-Default: 19 seconds on average
-Optimised: 3.5 seconds on average
+Default: 38  seconds on average
+Optimised:13.8 seconds on average 
+
+docker images
+django-reduce-buildtime   latest    c5a6e4606ed2   9 seconds ago   1.11GB
+simpledjango              latest    b3da05667e40   2 minutes ago   1.11GB
