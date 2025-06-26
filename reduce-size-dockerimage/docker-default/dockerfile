@@ -1,0 +1,20 @@
+FROM python:3.10
+
+# Set the working directory
+WORKDIR /app
+
+# Copy all project files
+COPY . .
+
+# Install Python dependencies
+RUN pip install -r requirements.txt
+
+# Install os dependencies
+RUN apt-get update && apt-get install -y vim
+
+# Expose the application port
+EXPOSE 8000
+
+# Run the Django application
+CMD ["gunicorn", "myproject.wsgi:application", "--bind", "0.0.0.0:8000"]
+
